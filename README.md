@@ -28,9 +28,11 @@
 
 
 <!-- TABLE OF CONTENTS -->
+## Table of Contents 
+
 <details open="open">
   <summary>Table of Contents</summary>
-  <ol>
+  <ol style="margin-left: 20em;">
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -77,15 +79,14 @@ All the plots are stored in the *./output/plot* : <br> <br>
   </a> <br>
 
 * Decision Boundary 2D for all plane <br> <br>
-    <a href="https://github.com/CaptainMich/ML-Classifier">
+  <a href="https://github.com/CaptainMich/ML-Classifier">
     <img src="docs/images/image-2.png" alt="Logo">
   </a> <br>
 
 * Decision Boundary 3D <br> <br>
-    <a align="center" href="https://github.com/CaptainMich/ML-Classifier">
+  <a align="center" href="https://github.com/CaptainMich/ML-Classifier">
     <img src="docs/images/image-3.png"  alt="Logo" width="400" height="300">
   </a>
-  
 ## Options
 
 ### Dataset
