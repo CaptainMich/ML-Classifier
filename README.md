@@ -68,8 +68,24 @@ You need to install the following packets using pip
 
 ### How it works?
 
-Run `main.py` and see a PDF report in the *'./output/info'* (one for each selected classifier is generated) and all the plots in the *'./output/plot'* <br>
+Run `main.py` and see a PDF report in the *./output/info* (one for each selected classifier is generated). <br> 
+All the plots are stored in the *./output/plot* : <br> <br>
 
+* Precision/Recall/F1 Report and Confusion Matrix (with and without normalization) <br> <br>
+  <a href="https://github.com/CaptainMich/ML-Classifier">
+    <img src="docs/images/image-1.png" alt="Logo">
+  </a> <br>
+
+* Decision Boundary 2D for all plane <br> <br>
+    <a href="https://github.com/CaptainMich/ML-Classifier">
+    <img src="docs/images/image-2.png" alt="Logo">
+  </a> <br>
+
+* Decision Boundary 3D <br> <br>
+    <a align="center" href="https://github.com/CaptainMich/ML-Classifier">
+    <img src="docs/images/image-3.png"  alt="Logo" width="400" height="300">
+  </a>
+  
 ## Options
 
 ### Dataset
