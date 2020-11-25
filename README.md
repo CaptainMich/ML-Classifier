@@ -8,10 +8,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/CaptainMich/ML-Classifier">
-    <img src="docs/images/icon.png" alt="Logo" width="80" height="80">
+    <img src="docs/images/icon.png" alt="Logo" width="160" height="160">
   </a>
 
-  <h3 style="font-size: 25px;text-align: center"> <b>ML-Classifier</b> </h3>
+  <h1 style="font-size: 45px" align="center"> <b>ML-Classifier</b> </h1>
 
   <p align="center">
     This project aims to identify <b>"normal"</b> or <b>"danger"</b> objects in conveyor belt of an airport  <br/>
@@ -68,7 +68,7 @@ You need to install the following packets using pip
 
 ### How it works?
 
-Run `main.py` and see a PDF report in the *./output/info* (one for each selected classifier is generated) and all the plots in the *./output/plot* <br>
+Run `main.py` and see a PDF report in the *'./output/info'* (one for each selected classifier is generated) and all the plots in the *'./output/plot'* <br>
 
 ## Options
 
