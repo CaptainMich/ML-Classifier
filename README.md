@@ -131,7 +131,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -145,4 +145,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 [issues-shield]: https://img.shields.io/github/issues/CaptainMich/ML-Classifier.svg?style=for-the-badge
 [issues-url]: https://github.com/CaptainMich/ML-Classifier/issues
 [license-shield]: https://img.shields.io/github/license/CaptainMich/ML-Classifier.svg?style=for-the-badge
-[license-url]: https://github.com/CaptainMich/ML-Classifier/blob/master/LICENSE.txt
+[license-url]: https://github.com/CaptainMich/ML-Classifier/blob/master/LICENSE
