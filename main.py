@@ -19,7 +19,7 @@ if __name__ == '__main__':
     classes = cfg['classes']
 
     # csv path can be folder or single file
-    data = split_data(cfg['csv_path'])
+    data = split_data(cfg['csv_path'], test_ratio=0.3)
     x_train, y_train, x_test, y_test = data[0:4]
 
     # Naive Bayes
@@ -27,7 +27,7 @@ if __name__ == '__main__':
         nb = NaiveBayes(data)
         nb.confusion_matrix(classes)
         nb.plot_precision_recall_f1(classes)
-        nb.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'])
+        nb.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'], display=cfg['display'])
         nb.generate_report()
 
     # Linear SVC
@@ -35,15 +35,16 @@ if __name__ == '__main__':
         lsvc = Linear_SVC(data)
         lsvc.confusion_matrix(classes)
         lsvc.plot_precision_recall_f1(classes)
-        lsvc.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'])
+        lsvc.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'], display=cfg['display'])
         lsvc.generate_report()
 
     # KNN
     if "KNN" in cfg['classifiers']:
-        knn = KNN(data)
+        knn = KNN(data, n_neighbors=15)
         knn.confusion_matrix(classes)
         knn.plot_precision_recall_f1(classes)
-        knn.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'])
+        knn.plot_decision_boundary_2D(cols=cfg['csv_cols'], labels=cfg['csv_labels'], display=cfg['display'])
+        knn.plot_decision_boundary_3D(cols=cfg['csv_cols'], labels=cfg['csv_labels'], display=cfg['display'])
         knn.generate_report()
 
     # Decision Tree
@@ -56,7 +57,7 @@ if __name__ == '__main__':
         lr = Logistic_Regression(data)
         lr.confusion_matrix(classes)
         lr.plot_precision_recall_f1(classes)
-        lr.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'])
+        lr.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'], display=cfg['display'])
         lr.generate_report()
 
     # Linear Discriminant Analysis
@@ -64,7 +65,7 @@ if __name__ == '__main__':
         lda = LDA(data)
         lda.confusion_matrix(classes)
         lda.plot_precision_recall_f1(classes)
-        lda.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'])
+        lda.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'], display=cfg['display'])
         lda.generate_report()
 
     # Support Vector Machine
@@ -72,5 +73,5 @@ if __name__ == '__main__':
         svm = SVM(data)
         svm.confusion_matrix(classes)
         svm.plot_precision_recall_f1(classes)
-        svm.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'])
+        svm.plot_decision_boundary(cols=cfg['csv_cols'], labels=cfg['csv_labels'], display=cfg['display'])
         svm.generate_report()

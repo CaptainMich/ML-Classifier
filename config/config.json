@@ -3,12 +3,14 @@
     "classes": ["Normal", "Danger"], 
     "classifiers": ["Naive-Bayes", "LinearSVC", "KNN", "DecisionTree", "LogisticRegression", "LDA", "SVM"],
     
-    "csv_cols": ["RMs", "LMs"],
+    "csv_cols": ["RMs", "LMs", "UMs"],
     "csv_labels": ["Class"],
 
     "normal" : ["Backpack", "Bag", "Boot", "Bottle", "Laptop", "Phone", "Tablet"],
     "danger" : ["AK-47", "Grenade", "Knife", "M4", "Pistol", "Shotgun", "Smoke"],
 
     "plot_path": "./output/plot/",
-    "info_path": "./output/info/"
+    "info_path": "./output/info/",
+    
+    "display": false
 }

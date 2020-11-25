@@ -1,6 +1,76 @@
-# ML-Classifier
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-This project aims to identify ***"normal"*** or ***"danger"*** objects in conveyor belt of an airport 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/CaptainMich/ML-Classifier">
+    <img src="docs/images/icon.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 style="font-size: 25px;text-align: center"> <b>ML-Classifier</b> </h3>
+
+  <p align="center">
+    This project aims to identify <b>"normal"</b> or <b>"danger"</b> objects in conveyor belt of an airport  <br/>
+    <a href="https://github.com/CaptainMich/ML-Classifier"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/CaptainMich/ML-Classifier">View Demo</a>
+    ·
+    <a href="https://github.com/CaptainMich/ML-Classifier/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/CaptainMich/ML-Classifier/issues">Request Feature</a>
+  </p>
+</p>
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#how-it-works">How it works?</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Options</a>
+      <ul>
+        <li><a href="#dataset">Dataset</a></li>
+        <li><a href="#configuration">Configuration</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+## Getting Started
+
+### Prerequisites
+
+You need to install the following packets using pip
+
+* pip
+    ```sh
+    pip install pandas
+    pip install fpdf
+    pip install sklearn
+    pip install matplotlib
+    pip install yellowbrick
+    ```
+
+### How it works?
+
+Run `main.py` and see a PDF report in the *./output/info* (one for each selected classifier is generated) and all the plots in the *./output/plot* <br>
+
+## Options
 
 ### Dataset
 
@@ -26,14 +96,37 @@ Configuration file entries are:
 - ***plot_path*** : the path of the plot output
 - ***info_path*** : the path of the pdf output
 
-### Requirements 
+<!-- ROADMAP -->
+## Roadmap
 
-- pandas
-- fpdf
-- sklearn
-- matplotlib
-- yellowbrick
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
-### How it works?
+<!-- CONTRIBUTING -->
+## Contributing
 
-Run `main.py` and see a PDF report in the *./output/info* (one for each selected classifier is generated) and all the plot in the *./output/plot*
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://github.com/CaptainMich/ML-Classifier/ --> 
+[contributors-shield]: https://img.shields.io/github/contributors/CaptainMich/ML-Classifier.svg?style=for-the-badge
+[contributors-url]: https://github.com/CaptainMich/ML-Classifier/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/CaptainMich/ML-Classifier.svg?style=for-the-badge
+[forks-url]: https://github.com/CaptainMich/ML-Classifier/network/members
+[stars-shield]: https://img.shields.io/github/stars/CaptainMich/ML-Classifier.svg?style=for-the-badge
+[stars-url]: https://github.com/CaptainMich/ML-Classifier/stargazers
+[issues-shield]: https://img.shields.io/github/issues/CaptainMich/ML-Classifier.svg?style=for-the-badge
+[issues-url]: https://github.com/CaptainMich/ML-Classifier/issues
+[license-shield]: https://img.shields.io/github/license/CaptainMich/ML-Classifier.svg?style=for-the-badge
+[license-url]: https://github.com/CaptainMich/ML-Classifier/blob/master/LICENSE.txt
