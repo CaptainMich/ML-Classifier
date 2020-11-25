@@ -15,10 +15,10 @@
 
   <p align="center">
     This project aims to identify <b>"normal"</b> or <b>"danger"</b> objects in conveyor belt of an airport  <br/>
-    <a href="https://github.com/CaptainMich/ML-Classifier"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/CaptainMich/ML-Classifier/tree/main/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/CaptainMich/ML-Classifier">View Demo</a>
+    <a href="https://github.com/CaptainMich/ML-Classifier/tree/main/docs">View Demo</a>
     ·
     <a href="https://github.com/CaptainMich/ML-Classifier/issues">Report Bug</a>
     ·
